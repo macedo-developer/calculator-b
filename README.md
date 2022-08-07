@@ -11,7 +11,7 @@
 > Performs basic operations between numbers, addition, subtraction, division and multiplication.
 
 <p align="center">
-  <img src="files_readme/calculator-gif.gif" alt="animated" />
+  <img src="assets/calculator-gif.gif" alt="animated" />
 </p>
 
 ## Install
