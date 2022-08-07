@@ -59,7 +59,7 @@ button {
 }
 
 button:hover {
-  opacity: 0.9%;
+  color: #888;
 }
 
 .operators {
