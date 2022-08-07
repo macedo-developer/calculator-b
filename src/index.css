@@ -1,7 +1,7 @@
 :root {
-  --primary: #d81e5b;
-  --secondary: #8c38ff;
-  --dark: #131a26;
+  --primary: #38184c;
+  --secondary: #a0cd60;
+  --dark: #1f0802;
   --light: #eee;
 }
 
@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: var(--light);
+  background-color: var(--dark);
 }
 
 .App {
@@ -36,8 +36,8 @@ body {
 .display {
   padding: 16px;
   text-align: right;
-  background-color: var(--dark);
-  color: #fff;
+  background-color: var(--light);
+  color: #000;
   font-size: 24px;
   font-weight: 300;
 }
@@ -47,11 +47,12 @@ body {
   color: #888;
 }
 
+
 button {
   appearance: none;
   border: none;
   outline: none;
-  color: #fff;
+  color: #000;
   font-size: 20px;
   padding: 16px;
   cursor: pointer;
@@ -69,6 +70,7 @@ button:hover {
 .operators button {
   flex: 1 1 0%;
   background-color: var(--primary);
+  color: #fff;
   font-weight: 700;
 }
 
@@ -80,5 +82,5 @@ button:hover {
 .digits button {
   flex: 1 1 33.333%;
   max-width: 33.333%;
-  background-color: var(--dark);
+  background-color: var(--light);
 }
